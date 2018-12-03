@@ -51,7 +51,8 @@ onclick(direction) {
 else if (direction === 'right' && currentIndexInArray === httpDataLength) {
   this.setState({
     currentIndexInArray: 0,
-    imageUrl: httpData[0].thumbnail_content
+    imageUrl: httpData[0].thumbnail_url,
+    imageContent: httpData[0].thumbnail_content
   })
 }
 else if (direction === 'right') {
@@ -61,7 +62,7 @@ else if (direction === 'right') {
     imageContent: httpData[0].thumbnail_content
   })
 }
-else if (direction === 'right') {
+else if (direction === 'left') {
   this.setState({
     currentIndexInArray: currentIndexInArray + 1,
     imageUrl: httpData[currentIndexInArray + 1].thumbnail_url,

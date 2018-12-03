@@ -1,0 +1,34 @@
+{
+  "name": "gs-react-code-test",
+  "version": "1.0.0",
+  "description": "Grafton Studio React Code Test",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --open --mode=development",
+    "webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.1",
+    "babel-plugin-root-import": "^6.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}

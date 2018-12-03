@@ -12,7 +12,7 @@ const ArrowButton = ({ type, onClick }) => {
     'translateX(1px)'
 
   return (
-    <button type="button" style={arrowBaseStyles} onClick={onClick}>
+    <button type="button" style={arrowBaseStyles} onClick={ () => onClick(type)}>
       <img src={arrowTypeSrc} style={{ transform: transformX }} />
     </button>
   )

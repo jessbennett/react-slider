@@ -1,7 +1,6 @@
 {
-  "name": "gs-react-code-test",
   "version": "1.0.0",
-  "description": "Grafton Studio React Code Test",
+  "description": "React.Js Tutorial",
   "main": "src/app.js",
   "scripts": {
     "dev": "webpack-dev-server --hot --inline --open --mode=development",

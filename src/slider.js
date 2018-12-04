@@ -58,15 +58,15 @@ else if (direction === 'right' && currentIndexInArray === httpDataLength) {
 else if (direction === 'right') {
   this.setState({
     currentIndexInArray: currentIndexInArray + 1,
-    imageUrl: httpData[currentIndexInArray + 1].thumbnail_content,
-    imageContent: httpData[0].thumbnail_content
+    imageUrl: httpData[currentIndexInArray + 1].thumbnail_url,
+    imageContent: httpData[currentIndexInArray + 1].thumbnail_content
   })
 }
 else if (direction === 'left') {
   this.setState({
-    currentIndexInArray: currentIndexInArray + 1,
-    imageUrl: httpData[currentIndexInArray + 1].thumbnail_url,
-    imageContent: httpData[currentIndexInArray + 1].thumbnail_content
+    currentIndexInArray: currentIndexInArray - 1,
+    imageUrl: httpData[currentIndexInArray - 1].thumbnail_url,
+    imageContent: httpData[currentIndexInArray - 1].thumbnail_content
   })
 }
 }

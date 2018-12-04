@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArrowButton = ({ type, onClick }) => {
+const ArrowButton = ( type, onClick ) => {
   const arrowTypeSrc = (type === 'left') ?
     './assets/left-arrow.svg': 
     './assets/right-arrow.svg'
